@@ -1,0 +1,89 @@
+# -------------------------
+# Node.js
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.env
+.env.*
+*.local
+
+# Logs
+logs/
+*.log
+logs/*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+*.venv
+
+# Python packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+
+# Jupyter
+.ipynb_checkpoints
+.jupyter/
+
+# pytest / coverage
+.python-version
+coverage.xml
+htmlcov/
+.cache/
+.pytest_cache/
+
+# Temporary
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# -------------------------
+# Common Extras
+# -------------------------
+# Sensitive config files
+*.key
+*.pem
+
+# IDEs
+.vscode/
+.idea/
+*.iml
